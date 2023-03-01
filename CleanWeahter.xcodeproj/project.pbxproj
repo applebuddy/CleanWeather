@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B06C92FD4C1D5C8EC507474D /* Pods_CleanWeahter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7891AA3805F674B1DED8D2DE /* Pods_CleanWeahter.framework */; };
+		546F20F01A7E7F1DB6DA756A /* Pods_CleanWeahter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3476F5868AA05D2B794F72 /* Pods_CleanWeahter.framework */; };
 		C34968F825480D6000717B00 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34968F725480D6000717B00 /* LocationManager.swift */; };
 		C39C446B2546E9720071320B /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C446A2546E9720071320B /* TodayCell.swift */; };
 		C39C446F2546E9820071320B /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C446E2546E9820071320B /* BaseTableViewCell.swift */; };
@@ -37,9 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7891AA3805F674B1DED8D2DE /* Pods_CleanWeahter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWeahter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99AB0B37B487DF8C621B758B /* Pods-CleanWeahter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWeahter.debug.xcconfig"; path = "Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter.debug.xcconfig"; sourceTree = "<group>"; };
-		B791433AA4AEA081CA141038 /* Pods-CleanWeahter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWeahter.release.xcconfig"; path = "Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter.release.xcconfig"; sourceTree = "<group>"; };
+		504B4E7D981D618DCBC9CE52 /* Pods-CleanWeahter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWeahter.debug.xcconfig"; path = "Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3476F5868AA05D2B794F72 /* Pods_CleanWeahter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWeahter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34968F725480D6000717B00 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C39C446A2546E9720071320B /* TodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
 		C39C446E2546E9820071320B /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		C3E99F7C2546621B002E2A3F /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		C3E99F9E25466571002E2A3F /* SettingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingKey.swift; sourceTree = "<group>"; };
 		C3E99FA42546662A002E2A3F /* CommonFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunc.swift; sourceTree = "<group>"; };
+		F3C6CB2EFC58FDFBF3E26887 /* Pods-CleanWeahter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWeahter.release.xcconfig"; path = "Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +76,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06C92FD4C1D5C8EC507474D /* Pods_CleanWeahter.framework in Frameworks */,
+				546F20F01A7E7F1DB6DA756A /* Pods_CleanWeahter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		142A6FD7CC353DE29209E208 /* Frameworks */ = {
+		05C45998FD63114BA0319F02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7891AA3805F674B1DED8D2DE /* Pods_CleanWeahter.framework */,
+				7D3476F5868AA05D2B794F72 /* Pods_CleanWeahter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,8 +94,8 @@
 		AE13990C84AF01300C7B18BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				99AB0B37B487DF8C621B758B /* Pods-CleanWeahter.debug.xcconfig */,
-				B791433AA4AEA081CA141038 /* Pods-CleanWeahter.release.xcconfig */,
+				504B4E7D981D618DCBC9CE52 /* Pods-CleanWeahter.debug.xcconfig */,
+				F3C6CB2EFC58FDFBF3E26887 /* Pods-CleanWeahter.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 				C3E99EF125464E30002E2A3F /* CleanWeahter */,
 				C3E99EF025464E30002E2A3F /* Products */,
 				AE13990C84AF01300C7B18BE /* Pods */,
-				142A6FD7CC353DE29209E208 /* Frameworks */,
+				05C45998FD63114BA0319F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,11 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3E99F0625464E30002E2A3F /* Build configuration list for PBXNativeTarget "CleanWeahter" */;
 			buildPhases = (
-				FDC9569411DE2E5F9B12EA68 /* [CP] Check Pods Manifest.lock */,
+				5F6A5B6A5E9D8F417DAE723D /* [CP] Check Pods Manifest.lock */,
 				C3E99EEB25464E30002E2A3F /* Sources */,
 				C3E99EEC25464E30002E2A3F /* Frameworks */,
 				C3E99EED25464E30002E2A3F /* Resources */,
-				92A0264D435CA801AA0EB8AC /* [CP] Embed Pods Frameworks */,
+				B03519BC1D95BEA1BAF30CB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,24 +308,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		92A0264D435CA801AA0EB8AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FDC9569411DE2E5F9B12EA68 /* [CP] Check Pods Manifest.lock */ = {
+		5F6A5B6A5E9D8F417DAE723D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,6 +328,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03519BC1D95BEA1BAF30CB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CleanWeahter/Pods-CleanWeahter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -513,7 +513,7 @@
 		};
 		C3E99F0725464E30002E2A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E99F7C2546621B002E2A3F /* Development.xcconfig */;
+			baseConfigurationReference = 504B4E7D981D618DCBC9CE52 /* Pods-CleanWeahter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -533,7 +533,7 @@
 		};
 		C3E99F0825464E30002E2A3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B791433AA4AEA081CA141038 /* Pods-CleanWeahter.release.xcconfig */;
+			baseConfigurationReference = F3C6CB2EFC58FDFBF3E26887 /* Pods-CleanWeahter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
